@@ -1,0 +1,11 @@
+build/
+install/
+log/
+__pycache__/
+*.pyc
+*.mp4
+*.pt
+.DS_Store
+*.mov
+*.MOV
+*.m4v
