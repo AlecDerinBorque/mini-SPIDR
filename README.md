@@ -2,6 +2,8 @@
 
 A simulated pan/tilt camera tracking pipeline built with ROS 2 (Jazzy). A wide video stands in for the world, a virtual camera sees a cropped window of it, a YOLOv8n detector finds a target in that window, and a PID controller drives a simulated pan/tilt unit (PTU) to keep the target centered. Moving the PTU moves the crop window, so the loop closes entirely in software.
 
+Live demo: https://youtu.be/p5B0g-zbFqU?si=xdK3A30o0WNsZE28
+
 ## How it works
 
 ```
